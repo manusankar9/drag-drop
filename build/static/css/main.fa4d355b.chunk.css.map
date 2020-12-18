@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style.css"],"names":[],"mappings":"AAAA,KACE,gBAAiB,CACjB,SACF","file":"main.fa4d355b.chunk.css","sourcesContent":["h1, p {\n  font-family: Lato;\n  color:red;\n}"]}
