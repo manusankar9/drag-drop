@@ -2,6 +2,6 @@ import React from "react";
 
 export default () => (
   <div className="no-itmes">
-    <h2>No items</h2>
+    <h5>No items</h5>
   </div>
 );
