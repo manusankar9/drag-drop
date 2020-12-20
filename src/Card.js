@@ -1,7 +1,7 @@
-import React from "react";
+import React,{ memo } from "react";
 import NoItems from './NoItems';
 
-export default ({ type, dropHandler, data, label }) => (
+export default memo(({ type, dropHandler, data, label }) => (
   <div
     className="bg-card"
     onDragOver={e => e.preventDefault()}
@@ -12,4 +12,4 @@ export default ({ type, dropHandler, data, label }) => (
     <h5 className="task-header">{label}</h5>
     {data.length ? data : <NoItems />}
   </div>
-);
+));

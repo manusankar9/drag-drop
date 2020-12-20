@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 
-export default ({ dragHandler, name }) => (
+export default memo(({ dragHandler, name }) => (
   <div onDragStart={e => dragHandler(e, name)} draggable className="task-item">
     <p>{name}</p>
   </div>
-);
+));
